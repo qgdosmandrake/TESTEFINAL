@@ -136,6 +136,402 @@ function App() {
         </div>
       </section>
 
+      {/* SEÇÃO 2 - PARE DE CAIR NAS MESMAS ARMADILHAS */}
+      <section className="py-20 bg-gradient-to-br from-black via-blue-900 to-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-4xl md:text-6xl font-black mb-16 leading-tight">
+              <span className="text-white">PARE DE CAIR NAS MESMAS</span>
+              <br />
+              <span className="text-red-500">ARMADILHAS</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-gray-800 rounded-2xl p-8 text-center">
+                <div className="text-6xl mb-4">🥗</div>
+                <h3 className="text-2xl font-bold text-red-500 mb-4">Dietas Genéricas</h3>
+                <p className="text-gray-300">Funcionam por 2 semanas, depois você volta ao peso anterior</p>
+              </div>
+              
+              <div className="bg-gray-800 rounded-2xl p-8 text-center">
+                <div className="text-6xl mb-4">🍵</div>
+                <h3 className="text-2xl font-bold text-red-500 mb-4">Chás Milagrosos</h3>
+                <p className="text-gray-300">Promessas vazias que só drenam sua carteira</p>
+              </div>
+              
+              <div className="bg-gray-800 rounded-2xl p-8 text-center">
+                <div className="text-6xl mb-4">💊</div>
+                <h3 className="text-2xl font-bold text-red-500 mb-4">Jejuns Aleatórios</h3>
+                <p className="text-gray-300">Sem propósito e ciência, tudo é temporário</p>
+              </div>
+            </div>
+            
+            <div className="bg-gray-800 border border-red-500 rounded-2xl p-8 mb-12 max-w-4xl mx-auto">
+              <p className="text-white text-xl md:text-2xl font-bold">
+                Sem propósito e ciência, qualquer método é apenas mais uma tentativa frustrada.
+              </p>
+            </div>
+            
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+            >
+              ☕ QUERO UM MÉTODO REAL
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 3 - CONHEÇA O JEJUM COM CAFÉ PRETO */}
+      <section className="py-20 bg-blue-950">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-6xl font-black mb-16 leading-tight">
+              <span className="text-white">CONHEÇA O</span>
+              <br />
+              <span className="text-orange-500">JEJUM COM CAFÉ PRETO</span>
+            </h2>
+            
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 mb-12">
+              <div className="text-6xl mb-8">☕</div>
+              
+              <p className="text-xl md:text-2xl leading-relaxed mb-8 text-white">
+                Jejum com Café Preto é um protocolo <span className="text-orange-500 font-bold">simples</span>, 
+                <span className="text-yellow-500 font-bold"> ancestral</span> e 
+                <span className="text-green-500 font-bold"> validado pela ciência</span>.
+              </p>
+              
+              <p className="text-2xl md:text-3xl font-black text-white mb-8">
+                Nada de modinha.
+              </p>
+              
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Você acorda, toma um café puro e deixa o corpo e a mente entrarem em modo de cura.
+              </p>
+            </div>
+            
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+            >
+              ☕ QUERO CONHECER O MÉTODO
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 4 - CIÊNCIA + FÉ = RESULTADO */}
+      <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-6xl font-black text-center mb-16 leading-tight">
+              <span className="text-blue-500">CIÊNCIA</span>
+              <span className="text-yellow-500"> + FÉ</span>
+              <span className="text-green-500"> = RESULTADO</span>
+            </h2>
+            
+            <div className="grid lg:grid-cols-2 gap-12 mb-12">
+              {/* Bloco Científico */}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
+                <h3 className="text-3xl font-black text-blue-500 mb-8 text-center">CIENTÍFICO</h3>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">🔥</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-blue-500">Lipólise</h4>
+                      <p className="text-gray-300">Queima gordura sem atacar músculos</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">⚡</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-blue-500">Aumento de Dopamina</h4>
+                      <p className="text-gray-300">Mais foco e energia natural</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">🧬</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-blue-500">Autofagia</h4>
+                      <p className="text-gray-300">Limpeza celular profunda</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">📊</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-blue-500">Estabilidade de Insulina</h4>
+                      <p className="text-gray-300">Sem compulsão alimentar</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Bloco Espiritual */}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
+                <h3 className="text-3xl font-black text-yellow-500 mb-8 text-center">ESPIRITUAL</h3>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">📖</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-yellow-500">Jejum como Prática Bíblica</h4>
+                      <p className="text-gray-300">Tradição milenar de purificação</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">🙏</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-yellow-500">Conexão Profunda com Deus</h4>
+                      <p className="text-gray-300">Fortalecimento da fé e propósito</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">✨</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-yellow-500">Renovação Interior</h4>
+                      <p className="text-gray-300">Transformação que vem de dentro</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-2xl">💪</span>
+                    <div>
+                      <h4 className="text-xl font-bold text-yellow-500">Disciplina Espiritual</h4>
+                      <p className="text-gray-300">Fortalecimento da vontade</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <a 
+                href="https://go.disruptybr.com.br/q1yutawwn5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+              >
+                ☕ QUERO ALIAR CIÊNCIA E FÉ
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 5 - CONHEÇA A CAFÉ GPT */}
+      <section className="py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-6xl font-black text-center mb-16 leading-tight">
+              <span className="text-white">CONHEÇA A</span>
+              <br />
+              <span className="text-purple-500">CAFÉ GPT</span>
+            </h2>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+              {/* Descrição e Benefícios */}
+              <div>
+                <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
+                  A IA que acompanha você 24h, enviando versículos, dicas alimentares, motivação e monitoramento do progresso.
+                </p>
+                
+                <div className="space-y-4">
+                  {[
+                    "Motivação diária personalizada",
+                    "Versículo e reflexão matinal",
+                    "Ajustes personalizados no protocolo",
+                    "Check-ins emocionais",
+                    "Receitas leves e saudáveis",
+                    "Lembretes de quebra de jejum"
+                  ].map((benefit, index) => (
+                    <div key={index} className="flex items-center space-x-3">
+                      <span className="text-purple-500 text-xl">🔹</span>
+                      <p className="text-gray-300 text-lg">{benefit}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Exemplo de Conversa */}
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
+                <h3 className="text-2xl font-bold text-purple-500 mb-6 text-center">Exemplo de Conversa</h3>
+                
+                <div className="space-y-4">
+                  <div className="bg-purple-600 rounded-2xl p-4 ml-8">
+                    <p className="text-white font-semibold mb-1">Café GPT:</p>
+                    <p className="text-white">"Bom dia! Como você está se sentindo hoje?"</p>
+                  </div>
+                  
+                  <div className="bg-gray-600 rounded-2xl p-4 mr-8">
+                    <p className="text-white font-semibold mb-1">Você:</p>
+                    <p className="text-white">"Meio desanimada..."</p>
+                  </div>
+                  
+                  <div className="bg-purple-600 rounded-2xl p-4 ml-8">
+                    <p className="text-white font-semibold mb-1">Café GPT:</p>
+                    <p className="text-white">"Entendo. Lembre-se: 'Posso todas as coisas naquele que me fortalece' (Filipenses 4:13). Que tal começarmos com seu café e uma oração? ☕🙏"</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <a 
+                href="https://go.disruptybr.com.br/q1yutawwn5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+              >
+                ☕ QUERO O SUPORTE DA CAFÉ GPT
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 6 - COMO FUNCIONA O PROTOCOLO */}
+      <section className="py-20 bg-black">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-6xl font-black text-center mb-16 leading-tight">
+              <span className="text-white">COMO FUNCIONA O</span>
+              <br />
+              <span className="text-green-500">PROTOCOLO</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-5 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-black font-black text-2xl mx-auto mb-4">
+                  1
+                </div>
+                <div className="text-4xl mb-4">☕</div>
+                <h3 className="text-xl font-bold text-white mb-3">Café em Jejum</h3>
+                <p className="text-gray-300">Acorde e tome seu café preto, sem açúcar ou adoçante</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-black font-black text-2xl mx-auto mb-4">
+                  2
+                </div>
+                <div className="text-4xl mb-4">📖</div>
+                <h3 className="text-xl font-bold text-white mb-3">Oração Devocional</h3>
+                <p className="text-gray-300">Dedique 10 minutos para oração e leitura bíblica</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-black font-black text-2xl mx-auto mb-4">
+                  3
+                </div>
+                <div className="text-4xl mb-4">⏰</div>
+                <h3 className="text-xl font-bold text-white mb-3">Jejum de 12 a 16h</h3>
+                <p className="text-gray-300">Mantenha o jejum pelo período determinado</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-black font-black text-2xl mx-auto mb-4">
+                  4
+                </div>
+                <div className="text-4xl mb-4">🍽️</div>
+                <h3 className="text-xl font-bold text-white mb-3">Quebra Leve</h3>
+                <p className="text-gray-300">Alimente-se de forma consciente e saudável</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-black font-black text-2xl mx-auto mb-4">
+                  5
+                </div>
+                <div className="text-4xl mb-4">📱</div>
+                <h3 className="text-xl font-bold text-white mb-3">Mensagem da Café GPT</h3>
+                <p className="text-gray-300">Receba orientação personalizada e motivação</p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <a 
+                href="https://go.disruptybr.com.br/q1yutawwn5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+              >
+                ☕ QUERO SEGUIR ESSE RITUAL
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 7 - VOCÊ RECONHECE ESSES SINAIS? */}
+      <section className="py-20 bg-blue-950">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-6xl font-black mb-16 leading-tight">
+              <span className="text-white">VOCÊ RECONHECE ESSES</span>
+              <br />
+              <span className="text-orange-500">SINAIS?</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">😴</span>
+                  <p className="text-lg text-gray-300">Cansaço ao acordar, mesmo dormindo 8 horas</p>
+                </div>
+                
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">🔍</span>
+                  <p className="text-lg text-gray-300">Sensação constante de inchaço</p>
+                </div>
+                
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">🧠</span>
+                  <p className="text-lg text-gray-300">Perda de foco durante o dia</p>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">😔</span>
+                  <p className="text-lg text-gray-300">Desânimo espiritual</p>
+                </div>
+                
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">🍽️</span>
+                  <p className="text-lg text-gray-300">Ansiedade alimentar</p>
+                </div>
+                
+                <div className="flex items-center space-x-4 text-left">
+                  <span className="text-3xl">💔</span>
+                  <p className="text-lg text-gray-300">Baixa autoestima</p>
+                </div>
+              </div>
+            </div>
+            
+            <p className="text-2xl md:text-3xl font-bold text-white mb-12">
+              Se isso é familiar, você não está sozinha.
+            </p>
+            
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
+            >
+              ☕ QUERO SAIR DESSE CICLO
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* SEÇÃO 2 - CARROSSEL DE ANTES E DEPOIS */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
@@ -190,7 +586,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 3 - DOR DO LEAD */}
+      {/* SEÇÃO 8 - DOR DO LEAD */}
       <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -246,7 +642,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO ESPECIALISTA - INSTITUCIONAL */}
+      {/* SEÇÃO 9 - ESPECIALISTA - INSTITUCIONAL */}
       <section className="py-20 bg-gradient-to-br from-gray-800 via-black to-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
@@ -324,7 +720,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 5 - NÚMEROS IMPACTANTES */}
+      {/* SEÇÃO 10 - NÚMEROS IMPACTANTES */}
       <section className="py-20 bg-gradient-to-br from-orange-500/10 via-black to-yellow-500/10">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
@@ -378,7 +774,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 6 - TIRA-DÚVIDAS INTELIGENTE */}
+      {/* SEÇÃO 11 - TIRA-DÚVIDAS INTELIGENTE */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
@@ -422,7 +818,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 10 - FAQ - MOVIDA PARA ANTES DA OFERTA */}
+      {/* SEÇÃO 12 - FAQ - MOVIDA PARA ANTES DA OFERTA */}
       <section className="py-20 bg-gradient-to-br from-indigo-500/10 via-black to-cyan-500/10">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
@@ -474,7 +870,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 7 - O QUE VOCÊ RECEBE + OFERTA PRINCIPAL */}
+      {/* SEÇÃO 13 - O QUE VOCÊ RECEBE + OFERTA PRINCIPAL */}
       <section id="oferta-principal" className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -526,7 +922,14 @@ function App() {
               </div>
               
               <button className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide mb-4">
-                🔥 QUERO EMAGRECER COM CAFÉ PRETO AGORA 🔥
+                <a 
+                  href="https://go.disruptybr.com.br/q1yutawwn5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  🔥 QUERO EMAGRECER COM CAFÉ PRETO AGORA 🔥
+                </a>
               </button>
               
               <p className="text-sm text-gray-300">
@@ -538,7 +941,7 @@ function App() {
         </div>
       </section>
 
-      {/* SEÇÃO 8 - BÔNUS EXCLUSIVOS */}
+      {/* SEÇÃO 14 - BÔNUS EXCLUSIVOS */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
@@ -568,17 +971,19 @@ function App() {
           </div>
           
           <div className="text-center">
-            <button 
-              onClick={scrollToOffer}
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
             >
               🎁 QUERO TUDO COM OS BÔNUS AGORA MESMO 🎁
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* SEÇÃO 9 - GARANTIA */}
+      {/* SEÇÃO 15 - GARANTIA */}
       <section className="py-20 bg-gradient-to-br from-green-500/10 via-black to-blue-500/10">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -625,17 +1030,19 @@ function App() {
               </div>
             </div>
             
-            <button 
-              onClick={scrollToOffer}
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-green-500 to-blue-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-green-600 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
             >
               🔒 QUERO TESTAR SEM RISCO AGORA! 🔒
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* SEÇÃO 4 - PROVAS SOCIAIS + AVALIAÇÕES - MOVIDA PARA DEPOIS DA GARANTIA */}
+      {/* SEÇÃO 16 - PROVAS SOCIAIS + AVALIAÇÕES - MOVIDA PARA LOGO ACIMA DA OFERTA FINAL */}
       <section className="py-20 bg-gradient-to-br from-purple-500/10 via-black to-pink-500/10">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-white">
@@ -664,17 +1071,19 @@ function App() {
           </div>
           
           <div className="text-center mt-12">
-            <button 
-              onClick={scrollToOffer}
+            <a 
+              href="https://go.disruptybr.com.br/q1yutawwn5"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-pink-500 to-purple-500 text-white font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-pink-600 hover:to-purple-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide"
             >
               💬 QUERO SER A PRÓXIMA A DEPOIMENTAR 💬
-            </button>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* SEÇÃO 11 - URGÊNCIA + PROMESSA FINAL */}
+      {/* SEÇÃO 17 - URGÊNCIA + PROMESSA FINAL */}
       <section className="py-20 bg-gradient-to-br from-red-500/10 via-black to-orange-500/10">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -707,12 +1116,14 @@ function App() {
             </div>
             
             <div className="space-y-4">
-              <button 
-                onClick={scrollToOffer}
+              <a 
+                href="https://go.disruptybr.com.br/q1yutawwn5"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-black text-lg md:text-xl px-8 py-4 rounded-full hover:from-orange-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl uppercase tracking-wide w-full md:w-auto"
               >
                 🔥 SIM, EU QUERO ENTRAR AGORA E MUDAR MEU CORPO! 🔥
-              </button>
+              </a>
               
               <p className="text-sm text-gray-400">
                 <Clock className="w-4 h-4 inline mr-1" />
@@ -724,15 +1135,41 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black py-8">
+      <footer className="bg-black py-8 relative">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-500">
             © 2025 Protocolo Jejum com Café Preto. Todos os direitos reservados.
           </p>
         </div>
+        
+        {/* Barra de Cookies */}
+        <CookieBar />
       </footer>
     </div>
   );
 }
+
+// Componente da Barra de Cookies
+const CookieBar = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  if (!isVisible) return null;
+
+  return (
+    <div className="fixed bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-700 p-4 z-50">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <p className="text-white text-sm md:text-base">
+          Este site utiliza cookies para melhorar sua experiência. Ao continuar, você concorda com nossa política de privacidade.
+        </p>
+        <button
+          onClick={() => setIsVisible(false)}
+          className="bg-yellow-500 text-black font-bold px-6 py-2 rounded-full hover:bg-yellow-600 transition-colors whitespace-nowrap"
+        >
+          OK, ENTENDI
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default App;
