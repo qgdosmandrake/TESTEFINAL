@@ -905,11 +905,15 @@ function App() {
             
             <div className="bg-gradient-to-r from-orange-500/20 to-yellow-500/20 rounded-2xl p-8 md:p-12 mb-12">
               <img 
-                src="https://i.postimg.cc/sxP7D9wx/jejum-cafe-preto-semfundo.webp" 
-                alt="Mockup do Protocolo"
-                className="w-full max-w-2xl mx-auto mb-8 rounded-2xl shadow-2xl"
-                loading="lazy"
-              />
+              <div className="space-y-4 text-left max-w-2xl mx-auto mb-8">
+                {[
+                  "✅ A CAFÉ GPT - A IA que acompanha você 24h",
+                  "✅ PLANO DIETA DA ÁGUA - Perca até 5kg em 5 dias com o método que usa apenas água, horário certo e jejum intermitente",
+                  "✅ PROTOCOLO DETOX EXPRESS - Protocolo detox intensivo que elimina até 3kg de inchaço em apenas 72 horas"
+                ].map((item, index) => (
+                  <p key={index} className="text-lg md:text-xl text-gray-300">{item}</p>
+                ))}
+              </div>
               
               <h3 className="text-3xl md:text-4xl font-black mb-8 text-white">
                 💣 TUDO ISSO POR APENAS:
