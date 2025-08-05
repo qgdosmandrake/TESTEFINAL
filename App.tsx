@@ -186,7 +186,7 @@ function App() {
                 Apenas 1 xícara de <span className="text-orange-500 font-bold">café preto puro em jejum</span> ativa um protocolo chamado <span className="text-yellow-500 font-bold">lipólise acelerada</span>, fazendo seu corpo buscar energia direto da gordura armazenada.
               </p>
               <p className="text-2xl md:text-3xl font-black text-white">
-                É simples. É natural. E <span className="text-orange-500">FUNCIONA PRA CARALHO</span>.
+                É simples. É natural. E <span className="text-orange-500">FUNCIONA !</span>.
               </p>
             </div>
           </div>
