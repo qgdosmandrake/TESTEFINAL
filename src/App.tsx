@@ -904,7 +904,6 @@ function App() {
             </div>
             
             <div className="bg-gradient-to-r from-orange-500/20 to-yellow-500/20 rounded-2xl p-8 md:p-12 mb-12">
-              <img 
               <div className="space-y-4 text-left max-w-2xl mx-auto mb-8">
                 {[
                   "✅ A CAFÉ GPT - A IA que acompanha você 24h",
