@@ -77,8 +77,8 @@ function App() {
             </h1>
             
             <p className="text-xl md:text-2xl font-bold text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-              Veja Como Mulheres Estão Perdendo Até <span className="text-orange-500">5Kg por Semana</span> 
-              Com Apenas <span className="text-yellow-500">1 Copo de Café Preto por Dia</span>
+              Veja Como Mulheres Estão Perdendo Até <span className="text-orange-500">5Kg por Semana </span> 
+               Com Apenas <span className="text-yellow-500">1 Copo de Café Preto por Dia</span>
             </p>
           </div>
 
@@ -396,6 +396,7 @@ function App() {
                   "✅ Ajustes alimentares por peso",
                   "✅ Rituais de manhã e noite",
                   "✅ Calendário visual de progresso"
+                  
                 ].map((item, index) => (
                   <p key={index} className="text-lg md:text-xl text-gray-300">{item}</p>
                 ))}
